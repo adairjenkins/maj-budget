@@ -13,7 +13,6 @@ import Footer from '../Footer/Footer';
 
 import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 
-import AboutPage from '../AboutPage/AboutPage';
 import UserPage from '../UserPage/UserPage';
 import InfoPage from '../InfoPage/InfoPage';
 import LandingPage from '../LandingPage/LandingPage';
@@ -45,7 +44,6 @@ function App() {
             exact
             path="/about"
           >
-            <AboutPage />
           </Route>
 
           {/* For protected routes, the view could show one of several things on the same route.
